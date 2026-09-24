@@ -19,8 +19,7 @@ public final class ReservationTime {
 
     // 다른 예약 시간대 및 시간 슬롯 겹침 여부 판단 메서드
     public boolean isOverlappedWith(ReservationTime other) {
-        return this.startTime.isBefore(other.endTime) && this.endTime.isAfter(other.startTime) == false
-                && this.endTime.isAfter(other.startTime);
+        return this.startTime.isBefore(other.endTime) && this.endTime.isAfter(other.startTime);
     }
 
     public LocalTime getStartTime() { return startTime; }
