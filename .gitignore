@@ -1,0 +1,29 @@
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+
+# NetBeans
+/nbproject/private/
+/build/
+/dist/
+
+# Gradle
+.gradle/
+build/
+
+# Java Class & Log Files
+*.class
+*.log
+
+# OS Generated
+.DS_Store
+Thumbs.db
